@@ -1,0 +1,7 @@
+Je suis sur la page d'enregistrement des nombres
+
+
+<%= form_tag number_path, method: "post" do %>
+  <input type="integer" name="number" />
+  <input type="submit" value="Ajouter un nombre" />
+<% end %>

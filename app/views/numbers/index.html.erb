@@ -1,0 +1,5 @@
+<h1>Historique</h1>
+
+<% @numbers.each do |nombre| %>
+  <p><a href "/number/<%=nombre.id%>"><%= nombre.number %></a></p>
+<% end %>
